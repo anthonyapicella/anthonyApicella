@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .hero {
+    background-image: url(../images/ApicellaHeadshot2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 46em;
+    z-index: -1;
+    border-bottom: .5em solid #222; */
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+    justify-content: flex-end;
+}
+
+header {
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* .list-style {
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
