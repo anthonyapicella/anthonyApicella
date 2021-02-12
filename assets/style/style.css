@@ -11,11 +11,15 @@ body {
     color: rgb(255, 255, 255);
 }
 
+/* removes style from links */
+
 .myWork a {
     color: rgb(165, 165, 165);
     text-decoration: none;
     
   }
+
+  /* enlarges project images when user hovers */
 
 .thumbnail:hover {
     position:relative;
@@ -25,6 +29,8 @@ body {
     display:block;
     z-index:999;
 }
+
+/* setting flex container properties */
 
 .flex-container1 { 
     display: flex;
@@ -46,6 +52,8 @@ body {
     justify-content: flex-start;
 }
 
+/* nav div */
+
 nav {
     display: flex;
     position: fixed;
@@ -63,6 +71,8 @@ nav {
     list-style: none;
 }
 
+/* navbar menu items */
+
 li, li a {
     display:flex;
     flex-direction: row;
@@ -76,6 +86,8 @@ li, li a {
     text-decoration: none;
     text-shadow: 2px 2px 5px black;
 }
+
+/* hero section */
 
 .hero {
     display: flex;
@@ -115,6 +127,8 @@ li, li a {
     justify-content: flex-end;
 }
 
+/* about me section */
+
 .aboutMe {
     display: flex;
     justify-content: flex-start;
@@ -136,6 +150,8 @@ li, li a {
     padding: 5% 5% 5% 5%;
     background-color: #3f445a;   
 }
+
+/* my work section */
 
 .myWork {
     display: flex;
@@ -159,16 +175,7 @@ li, li a {
     background-color: #3f445a;   
 }
 
-.fa {  
-    width: 25px;
-    padding: 20px;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    color: white;
-    border-radius: 50%; 
-}
+/* footer */
 
 footer {
     display: flex;
@@ -197,6 +204,19 @@ footer h2 {
     text-shadow: 2px 2px 5px black;
 }
 
+/* icon styles */
+
+.fa {  
+    width: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    border-radius: 50%; 
+}
+
 .fa:hover {
     opacity: 0.7;
 }
@@ -208,6 +228,8 @@ footer h2 {
 .fa-linkedin {
     background: #007bb5;
 }
+
+
 
 @media screen and (max-width: 768px) {
    
