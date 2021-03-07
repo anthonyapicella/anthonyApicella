@@ -1,0 +1,278 @@
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #3C4053;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* removes style from links */
+
+.myWork a {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+    
+  }
+
+  /* enlarges project images when user hovers */
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width: 600px;
+    display:block;
+    z-index:999;
+}
+
+/* setting flex container properties */
+
+.flex-container1 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* nav div */
+
+nav {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    min-width: 20rem;
+    background-color: #3C4053;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 40%);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+/* navbar menu items */
+
+li, li a {
+    display:flex;
+    flex-direction: row;
+    float: left;
+    display: block;
+    color: whitesmoke;
+    font-size: 125%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/apicellaHeadshot2.jpg);
+    min-height: 15em;
+    height: 92%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text h2 {
+    padding-left: 6rem;
+    font-size: 8rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.hero-text h3 {
+    padding-left: 6rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-text p {
+    padding-left: 6rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* about me section */
+
+.aboutMe {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 2% 12% 5% 10%;
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px black;
+}
+
+.aboutMe h2 {
+    font-size: 275%;
+    padding: 0% 0% 2% 0%;
+    background-color: #353849 b;  
+}
+
+.aboutMe p {
+    font-size: 185%;
+    flex-direction: column;
+    padding: 5% 5% 5% 5%;
+    background-color: #3f445a;   
+}
+
+/* my work section */
+
+.myWork {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    color: whitesmoke;
+    padding-top: 2%;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.myWork h2 {
+    font-size: 275%;
+    padding: 0% 0% 2% 10%;
+    background-color: #353849 b;  
+}
+
+.myWork h3  {
+    font-size: 185%;
+    flex-direction: column;
+    padding: 5% 2% 2% 2%;
+    background-color: #3f445a;   
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    min-width: 20rem;
+    background-color: #3c4053;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 40%);
+}
+
+footer h2 {
+    display:flex;
+    flex-direction: row;
+    float: left;
+    display: block;
+    color: whitesmoke;
+    font-size: 275%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* icon styles */
+
+.fa {  
+    width: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    border-radius: 50%; 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: #000000;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+}
+
+
+
+@media screen and (max-width: 768px) {
+   
+    .hero-text h2 { 
+        font-size: 600%;
+        justify-content: flex-end;
+    }
+    
+    .hero-text h3 { 
+        font-size: 300%;
+        justify-content: flex-end;
+    }
+
+    .hero-text p { 
+        font-size: 175%;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .hero-text{
+        padding: 0;
+    }
+    
+    .hero-text h2 { 
+        font-size: 450%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .hero-text h3 { 
+        font-size: 200%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+    .hero-text p { 
+        font-size: 125%;
+        justify-content: center;
+        text-align: center;
+    }
+        
+}
