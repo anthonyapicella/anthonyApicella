@@ -1,17 +1,21 @@
-# anthonyApicella
+# anthonyApicella.com
 
-## Front-End Web Developer Portfolio
+## Overview
 
-*This site serves as a digital portfolio, showcasing my work as a Web Developer.*
+### Web Developer Portfolio
 
----
+*This site serves as a digital portfolio, showcasing my work as a Web Developer*
 
 ## Features
 
-- Fully accessible web application with responsve design
-- Static navbar with working links to "About Me", "My Work" and "Contact" sections
-- Image links to "Projects" that enlarge upon user interaction. (Links will open in new tab)
-- Contact buttons in static footer section. (Links will open in new tab)
+- Fully accessible web application with responsive design
+- Static navbar with working links to "About Me", "My Work", "Contact" sections and link to downloadable "Resume"
+- Image links to Projects that enlarge upon user interaction. (Links will open in new tab)
+- Phone number and Contact buttons in static footer section. (Links will open in new tab)
+- Utilizes HTML/CSS, Bootstrap, jQuery
 
-## Screenshot
-![portfolio](assets/images/apicellaPortfolio.png)
+## Demo
+![portfolio](/assets/images/Anthony%20Apicella.gif)
+
+## Contributions
+[Anthony Apicella](https://github.com/anthonyapicella) 
