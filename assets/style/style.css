@@ -1,13 +1,18 @@
 body {
     background-color: #3c4053f9;
-    
-    
+        
+}
+
+#wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .card {
     background-color: transparent;
     padding-bottom: 2rem;
     border: none;
+    align-items: center;
 }
 
 .card-body{
@@ -53,9 +58,9 @@ body {
 
 #hero-text {
     padding-top: 20rem;
-    padding-right: 20rem;
-    padding-bottom: 20rem;
-    padding padding-left: 10rem;
+    padding-right: 10rem;
+    /* padding-bottom: 20rem;
+    padding padding-left: 10rem; */
     margin: bottom 10rem;
     color: whitesmoke;
     text-shadow: 2px 2px 5px black;
@@ -63,7 +68,13 @@ body {
 
 /* about */
 #about {
+    padding-top: 15px;
     text-shadow: 2px 2px 5px black;
+}
+
+#young-anthony {
+    padding-top: 10px;
+
 }
 
 /* work */
