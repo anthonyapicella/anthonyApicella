@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #3c4053;
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 40%);
+}
+
+#nav-links {
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black;
+}
+
+.bgimage {
+    width: 100%;
+    min-height: 15em;
+    background: url(../images/apicellaHeadshot2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
