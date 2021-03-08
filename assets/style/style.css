@@ -2,6 +2,20 @@ body {
     background-color: #3c4053;
 }
 
+.card {
+    background-color: transparent;
+    padding-bottom: 2rem;
+}
+
+.card-body{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.card-group {
+    padding-bottom: 3rem;
+}
+
 /* navbar */
 .navbar {
     background-color: #3c4053;
@@ -28,12 +42,18 @@ body {
 
 #hero-text {
     padding-top: 20rem;
-    padding-right: 15rem;
+    padding-right: 20rem;
     padding-bottom: 10rem;
     padding padding-left: 10rem;
     color: whitesmoke;
     text-shadow: 2px 2px 5px black;
 }
+
+/* about */
+
+
+/* work */
+
 
 /* footer */
 
