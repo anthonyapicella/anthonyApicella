@@ -19,6 +19,14 @@ body {
     padding-bottom: 3rem;
 }
 
+.card-title {
+    text-shadow: 2px 2px 5px black;
+}
+
+.card-text {
+    text-shadow: 2px 2px 5px black;
+}
+
 /* navbar */
 .navbar {
     background-color: #3c4053;
@@ -54,8 +62,15 @@ body {
 }
 
 /* about */
+#about {
+    text-shadow: 2px 2px 5px black;
+}
 
 /* work */
+
+.xp {
+    filter: drop-shadow(0 0 0.75rem rgb(52, 216, 6));
+}
 
 /* resume */
 #resume {
@@ -72,6 +87,7 @@ body {
 #contact {
     color: whitesmoke;
     font-size: 1.5rem;
+    text-shadow: 2px 2px 5px black;
 }
 
 .navbar-brand {
