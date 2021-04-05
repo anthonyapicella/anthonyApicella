@@ -1,4 +1,6 @@
 <br />
+
+
   <h1 align="center">Developer Portfolio</h1>
 
   <p align="center">
@@ -15,8 +17,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -31,8 +31,6 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -51,6 +49,10 @@ This site serves as a digital portfolio, showcasing my work as a Web Developer.
 <!-- ROADMAP -->
 ## Roadmap
 
+  - [ ] Improve mobile responiveness
+  - [ ] Redesign color scheme
+  - [ ] Enrich UX with animation and user interactivity 
+
 See the [open issues](https://github.com/anthonyapicella/anthonyapicella/issues) for a list of proposed features (and known issues).
 
 <!-- CONTACT -->
@@ -65,4 +67,3 @@ tweet: [@anthonyapicella](https://twitter.com/twitter_handle)
 [GitHub Repository]()
 
 Deployed project link: [anthonyapicella.com](https://github.com/anthonyapicella/anthonyApicella)
-
