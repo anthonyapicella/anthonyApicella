@@ -1,21 +1,68 @@
-# anthonyApicella.com
+<br />
+  <h2 align="center">Developer Portfolio</h2>
 
-## Overview
+  <p align="center">
+    anthonyapicella.com
+    <br />
+    <a href="https://github.com/anthonyapicella/anthonyapicella"><strong>Explore the repo »</strong></a>
+    <br />
+    <br />
+    <a href="http://anthonyapicella.com/">View Website</a>
+    ·
+    <a href="https://github.com/anthonyapicella/anthonyapicella/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/anthonyapicella/anthonyapicella/issues">Request Feature</a>
+  </p>
+</p>
 
-### Web Developer Portfolio
 
-*This site serves as a digital portfolio, showcasing my work as a Web Developer*
 
-## Features
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-- Fully accessible web application with responsive design
-- Static navbar with working links to "About Me", "My Work", "Contact" sections and link to downloadable "Resume"
-- Image links to Projects that enlarge upon user interaction. (Links will open in new tab)
-- Phone number and Contact buttons in static footer section. (Links will open in new tab)
-- Utilizes HTML/CSS, Bootstrap, jQuery
 
-## Demo
-![portfolio](/assets/images/Anthony%20Apicella.gif)
 
-## Contributions
-[Anthony Apicella](https://github.com/anthonyapicella) 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+<!-- SCREENSHOT -->
+
+This site serves as a digital portfolio, showcasing my work as a Web Developer.
+
+### Built With
+
+* HTML
+* CSS
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [jQuery](https://jquery.com/)
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/anthonyapicella/anthonyapicella/issues) for a list of proposed features (and known issues).
+
+<!-- CONTACT -->
+## Contact
+
+Anthony Apicella 
+
+email: anthony.apicella@me.com
+
+tweet: [@anthonyapicella](https://twitter.com/twitter_handle) 
+
+[GitHub Repository]()
+
+Deployed project link: [anthonyapicella.com](https://github.com/anthonyapicella/anthonyApicella)
+
