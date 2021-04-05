@@ -1,5 +1,5 @@
 <br />
-  <h2 align="center">Developer Portfolio</h2>
+  <h1 align="center">Developer Portfolio</h1>
 
   <p align="center">
     anthonyapicella.com
