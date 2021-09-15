@@ -135,6 +135,10 @@ body {
     text-shadow: 2px 2px 5px black;
 }
 
+.navbar-light .navbar-brand{
+    color: whitesmoke;
+}
+
 /* icon styles */
 
 .fa {
